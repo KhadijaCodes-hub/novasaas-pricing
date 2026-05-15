@@ -1,0 +1,177 @@
+{
+  "billing_cycles": {
+    "monthly": [
+      {
+        "id": 1,
+        "plan_name": "Starter",
+        "price": 9,
+        "currency": "USD",
+        "billing_cycle": "monthly",
+        "popular": false,
+        "color": "#6ee7b7",
+        "features": [
+          "1 User Account",
+          "5 GB Storage",
+          "Basic Analytics",
+          "Email Support",
+          "API Access",
+          "SSL Certificate"
+        ],
+        "cta": "Get Started"
+      },
+      {
+        "id": 2,
+        "plan_name": "Professional",
+        "price": 29,
+        "currency": "USD",
+        "billing_cycle": "monthly",
+        "popular": true,
+        "color": "#818cf8",
+        "features": [
+          "10 User Accounts",
+          "50 GB Storage",
+          "Advanced Analytics",
+          "Priority Support",
+          "Full API Access",
+          "Custom Domain",
+          "Team Collaboration",
+          "Webhooks"
+        ],
+        "cta": "Start Free Trial"
+      },
+      {
+        "id": 3,
+        "plan_name": "Business",
+        "price": 79,
+        "currency": "USD",
+        "billing_cycle": "monthly",
+        "popular": false,
+        "color": "#f9a8d4",
+        "features": [
+          "50 User Accounts",
+          "500 GB Storage",
+          "Real-time Analytics",
+          "24/7 Dedicated Support",
+          "Enterprise API",
+          "White Labeling",
+          "Advanced Security",
+          "SLA Guarantee",
+          "Custom Integrations"
+        ],
+        "cta": "Contact Sales"
+      },
+      {
+        "id": 4,
+        "plan_name": "Enterprise",
+        "price": 199,
+        "currency": "USD",
+        "billing_cycle": "monthly",
+        "popular": false,
+        "color": "#fcd34d",
+        "features": [
+          "Unlimited Users",
+          "Unlimited Storage",
+          "AI-powered Analytics",
+          "Dedicated Account Manager",
+          "Custom API Solutions",
+          "On-premise Deployment",
+          "SOC2 Compliance",
+          "GDPR Tools",
+          "99.99% Uptime SLA",
+          "Custom Contracts"
+        ],
+        "cta": "Talk to Us"
+      }
+    ],
+    "yearly": [
+      {
+        "id": 1,
+        "plan_name": "Starter",
+        "price": 7,
+        "currency": "USD",
+        "billing_cycle": "yearly",
+        "popular": false,
+        "color": "#6ee7b7",
+        "features": [
+          "1 User Account",
+          "5 GB Storage",
+          "Basic Analytics",
+          "Email Support",
+          "API Access",
+          "SSL Certificate"
+        ],
+        "cta": "Get Started"
+      },
+      {
+        "id": 2,
+        "plan_name": "Professional",
+        "price": 23,
+        "currency": "USD",
+        "billing_cycle": "yearly",
+        "popular": true,
+        "color": "#818cf8",
+        "features": [
+          "10 User Accounts",
+          "50 GB Storage",
+          "Advanced Analytics",
+          "Priority Support",
+          "Full API Access",
+          "Custom Domain",
+          "Team Collaboration",
+          "Webhooks"
+        ],
+        "cta": "Start Free Trial"
+      },
+      {
+        "id": 3,
+        "plan_name": "Business",
+        "price": 63,
+        "currency": "USD",
+        "billing_cycle": "yearly",
+        "popular": false,
+        "color": "#f9a8d4",
+        "features": [
+          "50 User Accounts",
+          "500 GB Storage",
+          "Real-time Analytics",
+          "24/7 Dedicated Support",
+          "Enterprise API",
+          "White Labeling",
+          "Advanced Security",
+          "SLA Guarantee",
+          "Custom Integrations"
+        ],
+        "cta": "Contact Sales"
+      },
+      {
+        "id": 4,
+        "plan_name": "Enterprise",
+        "price": 159,
+        "currency": "USD",
+        "billing_cycle": "yearly",
+        "popular": false,
+        "color": "#fcd34d",
+        "features": [
+          "Unlimited Users",
+          "Unlimited Storage",
+          "AI-powered Analytics",
+          "Dedicated Account Manager",
+          "Custom API Solutions",
+          "On-premise Deployment",
+          "SOC2 Compliance",
+          "GDPR Tools",
+          "99.99% Uptime SLA",
+          "Custom Contracts"
+        ],
+        "cta": "Talk to Us"
+      }
+    ]
+  },
+  "currencies": {
+    "USD": { "symbol": "$", "rate": 1 },
+    "EUR": { "symbol": "€", "rate": 0.92 },
+    "GBP": { "symbol": "£", "rate": 0.79 },
+    "PKR": { "symbol": "₨", "rate": 278 },
+    "INR": { "symbol": "₹", "rate": 83 }
+  }
+}

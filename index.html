@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NovaSaaS – Pricing Plans</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <div class="header-inner">
+        <div class="logo">NovaSaaS</div>
+        <div class="header-badge">Simple, Transparent Pricing</div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="pricing-hero">
+      <div class="container">
+        <div class="hero-eyebrow">Pricing Plans</div>
+        <h1>Pay for what<br><span>you actually need</span></h1>
+        <p class="hero-sub">No hidden fees. No lock-ins. Scale up or down anytime with full flexibility.</p>
+
+        <div class="controls-bar">
+          <div class="toggle-wrap">
+            <span class="toggle-label active" id="label-monthly">Monthly</span>
+            <label class="toggle-switch">
+              <input type="checkbox" id="billing-toggle" />
+              <div class="toggle-track">
+                <div class="toggle-thumb"></div>
+              </div>
+            </label>
+            <span class="toggle-label" id="label-yearly">Yearly</span>
+            <span class="save-badge">Save 20%</span>
+          </div>
+
+          <select class="currency-select" id="currency-select" aria-label="Select currency">
+            <option value="USD">$ USD — US Dollar</option>
+            <option value="EUR">€ EUR — Euro</option>
+            <option value="GBP">£ GBP — British Pound</option>
+            <option value="PKR">₨ PKR — Pakistani Rupee</option>
+            <option value="INR">₹ INR — Indian Rupee</option>
+          </select>
+        </div>
+      </div>
+    </section>
+
+    <section class="container" id="pricing-section">
+      <div class="skeleton-grid" id="skeleton-container">
+        <div class="skeleton-card">
+          <div class="skeleton-line w30"></div>
+          <div class="skeleton-line w60"></div>
+          <div class="skeleton-price"></div>
+          <div class="skeleton-line w80"></div>
+          <div class="skeleton-line w50"></div>
+          <div class="skeleton-line w80"></div>
+          <div class="skeleton-btn"></div>
+        </div>
+        <div class="skeleton-card">
+          <div class="skeleton-line w30"></div>
+          <div class="skeleton-line w60"></div>
+          <div class="skeleton-price"></div>
+          <div class="skeleton-line w80"></div>
+          <div class="skeleton-line w50"></div>
+          <div class="skeleton-line w80"></div>
+          <div class="skeleton-btn"></div>
+        </div>
+        <div class="skeleton-card">
+          <div class="skeleton-line w30"></div>
+          <div class="skeleton-line w60"></div>
+          <div class="skeleton-price"></div>
+          <div class="skeleton-line w80"></div>
+          <div class="skeleton-line w50"></div>
+          <div class="skeleton-line w80"></div>
+          <div class="skeleton-btn"></div>
+        </div>
+        <div class="skeleton-card">
+          <div class="skeleton-line w30"></div>
+          <div class="skeleton-line w60"></div>
+          <div class="skeleton-price"></div>
+          <div class="skeleton-line w80"></div>
+          <div class="skeleton-line w50"></div>
+          <div class="skeleton-line w80"></div>
+          <div class="skeleton-btn"></div>
+        </div>
+      </div>
+      <div class="cards-grid" id="cards-container" style="display:none;"></div>
+      <div id="error-container" style="display:none;"></div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 <span>NovaSaaS</span>. All rights reserved. Prices shown in selected currency.</p>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast">
+    <div class="toast-icon" id="toast-icon">🚀</div>
+    <div class="toast-body">
+      <div class="toast-title" id="toast-title">Plan Selected</div>
+      <div class="toast-msg" id="toast-msg"></div>
+    </div>
+    <button class="toast-close" onclick="hideToast()">✕</button>
+    <div class="toast-progress" id="toast-progress"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
